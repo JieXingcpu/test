@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.6">
+  <diagram name="第 1 页" id="ldMnYNTmYc23vsYf0se5">
+    <mxGraphModel dx="882" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dSQqZs26Awb8lVVxujO8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="410" />
+              <mxPoint x="280" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-2" target="dSQqZs26Awb8lVVxujO8-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="410" />
+              <mxPoint x="280" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-2" target="dSQqZs26Awb8lVVxujO8-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="410" />
+              <mxPoint x="280" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-2" target="dSQqZs26Awb8lVVxujO8-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="410" />
+              <mxPoint x="280" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-2" value="LED的四种指示状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-3" target="dSQqZs26Awb8lVVxujO8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-3" value="正常工作状态（Normal）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-11" target="dSQqZs26Awb8lVVxujO8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-11" value="CAN离线状态（CanOutline）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-16" target="dSQqZs26Awb8lVVxujO8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-16" value="设备离线状态（DeviceOutline）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSQqZs26Awb8lVVxujO8-20" target="dSQqZs26Awb8lVVxujO8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-20" value="其他异常状态（Other）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-24" value="LED呈现呼吸灯效果，并且LED最高亮度较低" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-26" value="LED呈现较亮一次快闪效果，即两次闪烁间隔时间相等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-28" value="指示LED呈现常高亮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSQqZs26Awb8lVVxujO8-30" value="指示LED呈现较亮二次快闪效果，即两次为一个周期，一个周期内闪烁间隔较短，两个周期间隔相对较大" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="495" width="150" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
