@@ -1,9 +1,112 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.6">
   <diagram name="第 1 页" id="AUx640MiA4OKAqVdIejl">
-    <mxGraphModel>
+    <mxGraphModel dx="882" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="inAqScXrf9I5d79oTQof-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-1" target="inAqScXrf9I5d79oTQof-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="320" />
+              <mxPoint x="229" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-1" target="inAqScXrf9I5d79oTQof-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="80" as="targetPoint" />
+            <mxPoint x="110" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="240" />
+              <mxPoint x="190" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-1" value="基本设计框架" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-2" target="inAqScXrf9I5d79oTQof-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-2" target="inAqScXrf9I5d79oTQof-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-2" target="inAqScXrf9I5d79oTQof-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-2" value="两种数据收发流程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-4" target="inAqScXrf9I5d79oTQof-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-4" value="同步收发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-9" target="inAqScXrf9I5d79oTQof-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-9" value="异步收发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-10" value="收到数据后直接使用CAN模块将此数据发送出去，不进行任何进行处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="310" width="150" height="70" as="geometry" />
+        </mxCell>
+        <UserObject label="启动数据收发线程后，将接收到的数据同步到main函数内的全局变量，即receive_msg" link="启动数据收发线程后，将接收到的数据同步到main函数内的全局变量，即为&quot;main.cpp&quot;文件中的&#39;HXC_CAN_message_t&#39;格式的&#39;receive_msg&#39;变量。" id="inAqScXrf9I5d79oTQof-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="495" y="410" width="155" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="inAqScXrf9I5d79oTQof-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-18" target="inAqScXrf9I5d79oTQof-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="100" />
+              <mxPoint x="420" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-18" target="inAqScXrf9I5d79oTQof-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-18" target="inAqScXrf9I5d79oTQof-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="100" />
+              <mxPoint x="420" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="inAqScXrf9I5d79oTQof-18" target="inAqScXrf9I5d79oTQof-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="100" />
+              <mxPoint x="420" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-18" value="多线程启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-19" value="LED指示线程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="10" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-22" value="数据收发线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="80" width="92.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-24" value="数据接收线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="inAqScXrf9I5d79oTQof-26" value="CAN消息数据发送线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463.75" y="210" width="86.25" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
