@@ -238,8 +238,16 @@
         <mxCell id="ZfEZncmXDdbIcs_JIp_o-18" value="接收数据，写入全局变量receive_msg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W11vk77ngovL1KlK19xO-79">
           <mxGeometry x="516" y="190" width="110" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZfEZncmXDdbIcs_JIp_o-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="W11vk77ngovL1KlK19xO-79" source="ZfEZncmXDdbIcs_JIp_o-39" target="ZfEZncmXDdbIcs_JIp_o-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZfEZncmXDdbIcs_JIp_o-39" value="&lt;div style=&quot;line-height: 310%;&quot;&gt;LED模块&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="W11vk77ngovL1KlK19xO-79">
           <mxGeometry x="111" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfEZncmXDdbIcs_JIp_o-46" value="监听系统状态" style="html=1;whiteSpace=wrap;" vertex="1" parent="W11vk77ngovL1KlK19xO-79">
+          <mxGeometry x="106" y="418" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZfEZncmXDdbIcs_JIp_o-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.327;exitY=1.044;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="W11vk77ngovL1KlK19xO-42" target="W11vk77ngovL1KlK19xO-66">
           <mxGeometry relative="1" as="geometry">
